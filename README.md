@@ -1,6 +1,6 @@
 # SQL-Query
 
-Welcome to the SQL Query Practice Repository! This repository is designed to help you strengthen your SQL query skills by providing a collection of common and interview-based SQL queries for practice.
+Welcome to the SQL Query Practice Repository! In this repository, I [Tushar Agggrwal](https://www.linkedin.com/in/tusharaggarwalinseec/) designed it to help anyone strengthen SQL query skills by providing a collection of common and interview-based SQL queries for practice.
 
 ## Introduction
 
@@ -51,9 +51,19 @@ To get started with the SQL Query Practice Repository, follow these simple steps
 - <b>[Tushar-Aggarwal.com](https://www.tushar-aggarwal.com/)</b>
 - <b>[Kaggle](https://www.kaggle.com/tusharaggarwal27)</b> 
 
-## Points to Note:
+## Read or Regret:
 ---
-**1) What Can SQL do?**
+**1) Top 7 most common SQL commands tested during SQL interviews:**
+
+-   SELECT - used to select specific columns from a table
+-   FROM - used to specify the table that contains the columns you are SELECT’ing
+-   WHERE - used to specify which rows to pick
+-   GROUP BY - used to group rows with similar values together
+-   HAVING - used to specify which groups to include, that were formed by the GROUP BY clause.
+-   ORDER BY - used to order the rows in the result set, either in ascending or descending order
+-   LIMIT - used to limit the number of rows returned
+
+**But what else it can do ?**
 
 -   SQL can execute queries against a database
 -   SQL can retrieve data from a database
@@ -149,15 +159,15 @@ SELECT DISTINCT column1, column2, ...
 FROM table_name;
 ```
 
-13. **CREATE INDEX**:
+13. **TRUNCATE TABLE**:
+```sql
+TRUNCATE TABLE table_name;
+```
+
+14. **CREATE INDEX**:
 ```sql
 CREATE INDEX index_name
 ON table_name (column1, column2, ...);
-```
-
-14. **TRUNCATE TABLE**:
-```sql
-TRUNCATE TABLE table_name;
 ```
 
 15. **UNION**:
@@ -259,7 +269,7 @@ SELECT column1, column2, ...
 FROM cte_name;
 ```
 
-7. **Pivoting and Unpivoting**:
+27. **Pivoting and Unpivoting**:
 ```sql
 -- Pivoting
 SELECT column1, SUM(column2) AS total
@@ -273,12 +283,37 @@ FROM pivot_table
 UNPIVOT (total FOR column3 IN (Value1, Value2, Value3)) AS unpivot_table;
 ```
 ---
-**3) t**
+**3) The 5 most common aggregate functions used in SQL interviews are:**
+
+-   AVG() - Returns the average value
+-   COUNT() - Returns the number of rows
+-   MAX() - Returns the largest value
+-   MIN() - Returns the smallest value
+-   SUM() - Returns the sum
+
+---
+**4) What are the 4 different joins tested in SQL assessments?**
+
+-   INNER JOIN - combines rows from two tables that have matching values
+-   LEFT JOIN - combines rows from the left table, even if there are no matching values in the right table
+-   RIGHT JOIN - combines rows from the right table, even if there are no matching values in the left table
+-   FULL JOIN - combines rows from both tables, regardless of whether there are matching values
+---
+**5) Most Common SQL Join Interview Questions**
+
+-   What is a self-join, and when would you use it?
+-   What is an anti-join, and when would you use it?
+-   What are the performance considerations of SQL join queries?
+-   How do you optimize a slow join query?
+-   How do you join more than two tables?
+-   Does a join always have to be on two rows sharing the same value (non-equi joins)?
+---
+**6) t**
+
 
 ---
 
+---
 ## Feedback
 
-If you have any feedback, suggestions, or questions regarding this repository, please feel free to [open an issue](https://github.com/tushar2704/sql-query/issues). We appreciate your input and will respond to your inquiries as soon as possible.
-
-# Happy querying and best!
+If you have any feedback, suggestions, or questions regarding this repository, please feel free to [open an issue](https://github.com/tushar2704/sql-query/issues). We appreciate your input and will respond to your inquiries as soon as possible. Or Contact at info@tushar-aggarwal.com !

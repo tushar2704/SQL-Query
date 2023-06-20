@@ -352,7 +352,6 @@ UNPIVOT (total FOR column3 IN (Value1, Value2, Value3)) AS unpivot_table;
 **10) Additional resources**
 
 
----
 
 ---
 ## Feedback

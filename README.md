@@ -53,7 +53,7 @@ To get started with the SQL Query Practice Repository, follow these simple steps
 
 ## Points to Note:
 ---
-1) What Can SQL do?
+**1) What Can SQL do?**
 
 -   SQL can execute queries against a database
 -   SQL can retrieve data from a database
@@ -66,8 +66,216 @@ To get started with the SQL Query Practice Repository, follow these simple steps
 -   SQL can create views in a database
 -   SQL can set permissions on tables, procedures, and views
 ---
-2)
+**2) Some of The Most Important SQL Commands**
 
+1. **SELECT**:
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+```
+
+2. **INSERT**:
+```sql
+INSERT INTO table_name (column1, column2, ...)
+VALUES (value1, value2, ...);
+```
+
+3. **UPDATE**:
+```sql
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+```
+
+4. **DELETE**:
+```sql
+DELETE FROM table_name
+WHERE condition;
+```
+
+5. **CREATE TABLE**:
+```sql
+CREATE TABLE table_name (
+  column1 datatype,
+  column2 datatype,
+  ...
+);
+```
+
+6. **ALTER TABLE**:
+```sql
+ALTER TABLE table_name
+ADD column_name datatype;
+```
+
+7. **DROP TABLE**:
+```sql
+DROP TABLE table_name;
+```
+
+8. **JOIN**:
+```sql
+SELECT column1, column2, ...
+FROM table1
+JOIN table2 ON table1.column = table2.column;
+```
+
+9. **GROUP BY**:
+```sql
+SELECT column1, COUNT(*)
+FROM table_name
+GROUP BY column1;
+```
+
+10. **ORDER BY**:
+```sql
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1 ASC/DESC;
+```
+
+11. **HAVING**:
+```sql
+SELECT column1, COUNT(*)
+FROM table_name
+GROUP BY column1
+HAVING COUNT(*) > 5;
+```
+
+12. **DISTINCT**:
+```sql
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
+```
+
+13. **CREATE INDEX**:
+```sql
+CREATE INDEX index_name
+ON table_name (column1, column2, ...);
+```
+
+14. **TRUNCATE TABLE**:
+```sql
+TRUNCATE TABLE table_name;
+```
+
+15. **UNION**:
+```sql
+SELECT column1, column2, ...
+FROM table1
+UNION
+SELECT column1, column2, ...
+FROM table2;
+```
+
+16. **NULL**:
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE column1 IS NULL;
+```
+
+17. **CASE**:
+```sql
+SELECT column1, 
+       CASE
+           WHEN condition1 THEN result1
+           WHEN condition2 THEN result2
+           ELSE result3
+       END AS new_column
+FROM table_name;
+```
+
+18. **VIEW**:
+```sql
+CREATE VIEW view_name AS
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+```
+
+19. **GRANT**:
+```sql
+GRANT permission_type
+ON object_name
+TO user_name;
+```
+
+20. **REVOKE**:
+```sql
+REVOKE permission_type
+ON object_name
+FROM user_name;
+```
+
+21. **Nested SELECT Statement**:
+```sql
+SELECT column1, column2, ...
+FROM table1
+WHERE column1 IN (SELECT column1 FROM table2 WHERE condition);
+```
+
+22. **Self-Join**:
+```sql
+SELECT e1.employee_name, e2.employee_name
+FROM employees e1
+JOIN employees e2 ON e1.manager_id = e2.employee_id;
+```
+
+23. **Subquery with EXISTS**:
+```sql
+SELECT column1, column2, ...
+FROM table1
+WHERE EXISTS (SELECT column1 FROM table2 WHERE condition);
+```
+
+24. **Common Table Expression (CTE)**:
+```sql
+WITH cte_name AS (
+    SELECT column1, column2, ...
+    FROM table1
+    WHERE condition
+)
+SELECT column1, column2, ...
+FROM cte_name;
+```
+
+25. **Window Functions**:
+```sql
+SELECT column1, column2, ..., 
+       ROW_NUMBER() OVER (PARTITION BY column1 ORDER BY column2) AS row_num
+FROM table1;
+```
+
+26. **Recursive CTE**:
+```sql
+WITH recursive cte_name (column1, column2, ...) AS (
+    SELECT initial_data
+    UNION ALL
+    SELECT recursive_data FROM cte_name WHERE condition
+)
+SELECT column1, column2, ...
+FROM cte_name;
+```
+
+7. **Pivoting and Unpivoting**:
+```sql
+-- Pivoting
+SELECT column1, SUM(column2) AS total
+FROM table1
+GROUP BY column1
+PIVOT (SUM(column2) FOR column3 IN ('Value1', 'Value2', 'Value3')) AS pivot_table;
+
+-- Unpivoting
+SELECT column1, column3, total
+FROM pivot_table
+UNPIVOT (total FOR column3 IN (Value1, Value2, Value3)) AS unpivot_table;
+```
+---
+**3) t**
+
+---
 
 ## Feedback
 

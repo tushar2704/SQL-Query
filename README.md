@@ -17,9 +17,20 @@ This repository serves as a valuable resource for both beginners and experienced
 - **Practice**: Put your SQL skills to the test! Take advantage of the query files provided in this repository to practice and refine your abilities. Work through the queries, experiment with different approaches, and strive for efficient and elegant solutions.
 
 ## Naviagte through this REPO
-| S.no.        | Used for|Lib, Framework & Tech |
-| ------------- |:-------------|:-----|
-|1|Data Science|Pandas|
+| S.no.        | Query|Level|Result|DB & Data|
+| ------------- |:-------------|:-----|:-----|:-----|
+|1|[Data]()|Easy|[Result]()|[DB & Data]()|
+|2|[Data]()|Easy|[Result]()|[DB & Data]()|
+|3|[Data]()|Easy|[Result]()|[DB & Data]()|
+|4|[Data]()|Easy|[Result]()|[DB & Data]()|
+|5|[Data]()|Easy|[Result]()|[DB & Data]()|
+|6|[Data]()|Easy|[Result]()|[DB & Data]()|
+|7|[Data]()|Easy|[Result]()|[DB & Data]()|
+|8|[Data]()|Easy|[Result]()|[DB & Data]()|
+|9|[Data]()|Easy|[Result]()|[DB & Data]()|
+|10|[Data]()|Easy|[Result]()|[DB & Data]()|
+|11|[Data]()|Easy|[Result]()|[DB & Data]()|
+
 
 ## Getting Started
 

@@ -55,13 +55,13 @@ To get started with the SQL Query Practice Repository, follow these simple steps
 ---
 **1) Top 7 most common SQL commands tested during SQL interviews:**
 
--   SELECT - used to select specific columns from a table
--   FROM - used to specify the table that contains the columns you are SELECT’ing
--   WHERE - used to specify which rows to pick
--   GROUP BY - used to group rows with similar values together
--   HAVING - used to specify which groups to include, that were formed by the GROUP BY clause.
--   ORDER BY - used to order the rows in the result set, either in ascending or descending order
--   LIMIT - used to limit the number of rows returned
+-   ```SELECT``` - used to select specific columns from a table
+-   ```FROM``` - used to specify the table that contains the columns you are SELECT’ing
+-   ```WHERE``` - used to specify which rows to pick
+-   ```GROUP BY``` - used to group rows with similar values together
+-   ```HAVING``` - used to specify which groups to include, that were formed by the GROUP BY clause.
+-   ```ORDER BY``` - used to order the rows in the result set, either in ascending or descending order
+-   ```LIMIT``` - used to limit the number of rows returned
 
 **But what else it can do ?**
 
@@ -285,19 +285,19 @@ UNPIVOT (total FOR column3 IN (Value1, Value2, Value3)) AS unpivot_table;
 ---
 **3) The 5 most common aggregate functions used in SQL interviews are:**
 
--   AVG() - Returns the average value
--   COUNT() - Returns the number of rows
--   MAX() - Returns the largest value
--   MIN() - Returns the smallest value
--   SUM() - Returns the sum
+-   ```AVG()``` - Returns the average value
+-   ```COUNT()``` - Returns the number of rows
+-   ```MAX()``` - Returns the largest value
+-   ```MIN()``` - Returns the smallest value
+-   ```SUM()``` - Returns the sum
 
 ---
 **4) What are the 4 different joins tested in SQL assessments?**
 
--   INNER JOIN - combines rows from two tables that have matching values
--   LEFT JOIN - combines rows from the left table, even if there are no matching values in the right table
--   RIGHT JOIN - combines rows from the right table, even if there are no matching values in the left table
--   FULL JOIN - combines rows from both tables, regardless of whether there are matching values
+-   ```INNER JOIN``` - combines rows from two tables that have matching values
+-   ```LEFT JOIN``` - combines rows from the left table, even if there are no matching values in the right table
+-   ```RIGHT JOIN``` - combines rows from the right table, even if there are no matching values in the left table
+-   ```FULL JOIN``` - combines rows from both tables, regardless of whether there are matching values
 ---
 **5) Most Common SQL Join Interview Questions**
 
@@ -308,7 +308,48 @@ UNPIVOT (total FOR column3 IN (Value1, Value2, Value3)) AS unpivot_table;
 -   How do you join more than two tables?
 -   Does a join always have to be on two rows sharing the same value (non-equi joins)?
 ---
-**6) t**
+**6) Most Common Date/Time Functions Used in SQL Interviews**
+
+-   ```NOW()```: returns the current date and time
+-   ```CURRENT_DATE()```: returns the current date
+-   ```INTERVAL```: adds a specified time interval to a date
+-   ```DATEDIFF```: calculates the difference between two dates
+-   ```EXTRACT```: extracts a specific part of a date (e.g., month, day, year)
+---
+**7) What are the most common window functions for SQL interviews?**
+
+-   ```RANK()``` - gives a rank to each row in a partition based on a specified column or value
+-   ```DENSE_RANK()``` - gives a rank to each row, but DOESN'T skip rank values
+-   ```ROW_NUMBER()``` - gives a unique integer to each row in a partition based on the order of the rows
+-   ```NTILE()``` - divides a partition into a specified number of groups, and gives a group number to each row
+-   ```LAG()``` - retrieves a value from a previous row in a partition based on a specified column or expression
+-   ```LEAD()``` - retrieves a value from a subsequent row in a partition based on a specified column or expression
+-   ```NTH_VALUE()``` - retrieves the nth value in a partition
+---
+**8) Common Database Design Interview Questions**
+
+-   What is an index, and why does it speed up queries?
+-   What are the dis-advantages of using indexes?
+-   How do you troubleshoot a slow SQL query?
+-   What is a stored procedure, and when do we use them?
+-   What is normalization? Why might we want to also de-normalize some tables?
+-   What is ACID, and how does a database enforce atomicity, consistency, isolation, durability?
+-   What’s the difference between Star schema and Snowflake schema?
+-   What are the different types of dimensions (e.g. junk dimensions, conformed dimensions, mini dimensions, shrunken dimensions)?
+-   If you had to make a simple news feed, similar to the Facebook or LinkedIn feed, what are the main tables you’d have? Can you whiteboard a quick ER Diagram for it?
+-   What is database sharding?
+-   What are the advantages and disadvantages of relational vs. NoSQL databases?
+---
+**9) How do you approach a SQL interview question?**
+
+-   a) Understand the question
+-   b) Identify Relevant information
+-   c) Break down the problem
+-   d) Consider Edge Cases
+-   e) Write queries to answer sub-problems
+-   f) Test your final query
+---
+**10) Additional resources**
 
 
 ---

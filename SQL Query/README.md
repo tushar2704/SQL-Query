@@ -1,4 +1,4 @@
-#SQL Queries by Tushar-Aggarwal.com
+# SQL Queries by Tushar-Aggarwal.com
 
 Welcome to the **Top SQL Queries** repository! In this repository, you'll find a collection of powerful SQL queries that can assist you in various data analysis tasks. These queries cover a wide range of SQL topics and can be useful for both beginners and experienced professionals.
 

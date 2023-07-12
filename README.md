@@ -20,6 +20,7 @@ This repository serves as a valuable resource for both beginners and experienced
 - **Practice**: Put your SQL skills to the test! Take advantage of the query files provided in this repository to practice and refine your abilities. Work through the queries, experiment with different approaches, and strive for efficient and elegant solutions.
 
 
+
 ## Naviagte through this REPO
 | S.no.        | Query|Level|Result|DB & Data|
 | ------------- |:-------------|:-----|:-----|:-----|

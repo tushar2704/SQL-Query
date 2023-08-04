@@ -12,6 +12,8 @@
 
 Welcome to the SQL Query Practice Repository! In this repository, I [Tushar Agggrwal](https://www.linkedin.com/in/tusharaggarwalinseec/) designed it to help anyone strengthen SQL query skills by providing a collection of common and interview-based SQL queries for practice.
 
+<a href="https://www.buymeacoffee.com/TAggData"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a beer&emoji=🍺&slug=TAggData&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+
 ## Introduction
 
 SQL (Structured Query Language) is a powerful programming language used for managing and manipulating relational databases. Proficiency in SQL is highly valued in the tech industry, particularly for data analysis, database management, and software development roles.
@@ -25,6 +27,8 @@ This repository serves as a valuable resource for both beginners and experienced
 - **Interview Queries**: Prepare for SQL-based job interviews by exploring a set of carefully selected interview-based SQL queries. These queries simulate real-world scenarios and challenge your problem-solving skills.
 
 - **Practice**: Put your SQL skills to the test! Take advantage of the query files provided in this repository to practice and refine your abilities. Work through the queries, experiment with different approaches, and strive for efficient and elegant solutions.
+
+
 
 ## Naviagte through this REPO
 | S.no.        | Query|Level|Result|DB & Data|

@@ -12,7 +12,8 @@
 Welcome to the SQL Query Practice Repository! In this repository, I [Tushar Agggrwal](https://www.linkedin.com/in/tusharaggarwalinseec/) designed it to help anyone strengthen SQL query skills by providing a collection of common and interview-based SQL queries for practice.
 
 <a href="https://www.buymeacoffee.com/TAggData"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a beer&emoji=🍺&slug=TAggData&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
-
+<br>
+### [Download my Advanced SQL guide](https://github.com/tushar2704/SQL-Query/blob/main/Data/The-Road-Less-Traveled-Exploring-Unique-Advanced-SQL-Concepts.pdf)
 ## Introduction
 
 SQL (Structured Query Language) is a powerful programming language used for managing and manipulating relational databases. Proficiency in SQL is highly valued in the tech industry, particularly for data analysis, database management, and software development roles.

@@ -364,7 +364,7 @@ UNPIVOT (total FOR column3 IN (Value1, Value2, Value3)) AS unpivot_table;
 -   f) Test your final query
 ---
 **10) Additional resources**
-
+- [Advanced Giude](https://github.com/tushar2704/SQL-Query/blob/main/Data/The-Road-Less-Traveled-Exploring-Unique-Advanced-SQL-Concepts.pdf)
 
 
 ---

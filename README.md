@@ -371,3 +371,4 @@ UNPIVOT (total FOR column3 IN (Value1, Value2, Value3)) AS unpivot_table;
 ## Feedback
 
 If you have any feedback, suggestions, or questions regarding this repository, please feel free to [open an issue](https://github.com/tushar2704/sql-query/issues). We appreciate your input and will respond to your inquiries as soon as possible. Or Contact at info@tushar-aggarwal.com !
+
